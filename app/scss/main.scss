@@ -28,21 +28,21 @@ body {
 
 .content-blocks,.content-block_1 ,.content-block_2{
 	@include flexbox ();
-	padding: 0 10px;
 }
 
 .content-block_1,.content-block_2 {
 	height: 200px;
+	padding: 0 10px;
 }
 
 .content-block_1 {
 	flex-direction:column;
-	flex: 0 1 45%;
+	flex: 0 1 47.6%;
 	text-align: center;
 }
 .content-block_2 {
 	background-color: green;
-	flex:0 1 45%;
+	flex:0 1 47.6%;
 	margin-left:20px;
 	a {
 		text-decoration: none;
