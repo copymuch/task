@@ -5,9 +5,8 @@ body {
 }
 
 .wrapper {
-  max-width: 1170px;
+  max-width: 1336px;
   margin: auto;
-  padding: 0 10px;
 }
 
 .blue {
@@ -15,7 +14,7 @@ body {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1336px;
   margin: auto;
 }
 
@@ -33,6 +32,7 @@ body {
 .content-block_1 {
   flex-direction: column;
   flex: 0 50%;
+  text-align: center;
 }
 
 .content-block_2 {
@@ -40,8 +40,19 @@ body {
   flex: 0 1 50%;
   margin-left: 20px;
 }
+.content-block_2 a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+}
 
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .button button {
+  margin-top: 10px;
   background-color: white;
   border-color: white;
   border-radius: 5px;
