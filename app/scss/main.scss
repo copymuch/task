@@ -10,10 +10,12 @@ body {
 	padding: 0 10px;
 }
 
-.blue{
-	background-color: blue;
+header {
+	text-align: center;
+	p {
+		font-size: 20px;
+	}
 }
-
 @mixin flexbox () {
 	display: flex;
 	flex-wrap:wrap;
@@ -33,17 +35,19 @@ body {
 .content-block_1,.content-block_2 {
 	height: 200px;
 	padding: 0 10px;
+	border-radius: 20px;
 }
 
 .content-block_1 {
 	flex-direction:column;
 	flex: 0 1 47.6%;
 	text-align: center;
+	margin-bottom:10px;
 }
 .content-block_2 {
-	background-color: green;
+	background-color: #00FF00;
 	flex:0 1 47.6%;
-	margin-left:20px;
+	margin-left:1%;
 	a {
 		text-decoration: none;
 		font-size: 22px;
@@ -54,7 +58,7 @@ body {
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1075px) {
 	.container {
 		max-width: none;
 	}
@@ -62,9 +66,7 @@ body {
 		flex:0 1 100%;
 		margin-left:0;
 	}
-	.content-block_1 {
-		margin-bottom:10px;
-	}
+
 }
 
 .button {
@@ -78,4 +80,8 @@ body {
 		padding:10px;
 		box-shadow: 0 0 10px grey;
 	}
+}
+
+footer {
+	font-size: 20px;
 }
